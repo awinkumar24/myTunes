@@ -1,0 +1,187 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+}
+#tune{
+    color: rgb(255, 255, 255);
+    background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    
+}
+.navbar{
+    background-color: rgb(57, 55, 55);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+.navbar li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 25px;
+    padding: 25px;
+    
+}
+.navbar li:hover{
+    background-color: rgb(68, 80, 174);
+    
+}
+a{
+    text-decoration: none;
+    display: inline;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: yellow;
+}
+.tunebody{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 100px;
+    text-align: center;
+}
+.tunebody h1{
+    font-size: 70px;
+}
+.topmid{
+    font-size: 30px;
+    font-weight: bold;
+}
+.topbot{
+    font-size: 18px;
+}
+#music{
+    background-color: rgb(28, 28, 27);
+    overflow-y: hidden;
+    
+}
+.musicbody{
+    color: rgb(255, 255, 255);
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 50px;
+    text-align: center;
+}
+.topmusic{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.midmusic{
+    font-size: 25px;
+}
+.lastmusic{
+    font-size: 20px; 
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+button{
+    height: 70px;
+    width: 170px;
+    background-color: red;
+    color: white;
+    border: red;
+    border-radius: 2px;
+    font-size: medium;
+}
+.botmusic{
+    font-size: 18px; 
+    margin-bottom: 25px;
+    margin-top: 25px; 
+}
+#tvmovies{
+    background-color: rgb(221, 224, 222);
+    
+    
+}
+.tvmoviesbody{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 50px;
+    text-align: center;
+}
+.tvmoviesbutton{
+    height: 70px;
+    width: 170px;
+    background-color: rgb(25, 0, 255);
+    color: white;
+    border: rgb(25, 0, 255);
+    border-radius: 2px;
+    font-size: medium; 
+}
+.entertainment{
+    background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg) no-repeat bottom/cover;
+    overflow-y: hidden;
+}
+.enter{
+    height: 500px;    
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center; 
+    color: white; 
+    font-size: 23px;
+}
+
+
+#card{
+    background-color: rgb(221, 224, 222);
+    overflow-y: hidden;
+}
+.cardbody{
+    display: inline-block;
+    height: 400px;
+    width: 600px;
+    color: rgb(98, 37, 37);
+    overflow-y: hidden;
+    padding: 15px;
+    text-align: justify;
+   }
+   
+
+#cardimg img{
+    height: 400px;
+    width: 600px;
+    }
+#select{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+#cardmsg a{
+    color: rgb(98, 37, 37);
+}
+#cardmsg a:hover{
+    color: rgb(143, 143, 54);
+}
+#footer{
+    background-color: rgb(28, 28, 27);
+    overflow-y: hidden; 
+}
+.foot{
+    display: inline-block;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footerbody{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#copyright{
+    background-color: rgb(56, 56, 55);
+    overflow-y: hidden;   
+}
+#copyright p{
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+}
